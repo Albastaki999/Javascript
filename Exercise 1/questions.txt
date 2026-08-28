@@ -1,0 +1,65 @@
+1. Convert INR to USD and vice versa
+2. Convert Celsius to Fahrenheit and vice versa
+3. Convert days to hours, hours to minutes, minutes to seconds
+4. Add two numbers without using the + operator
+5. Check wether a number is a 3 digit number
+6. Find the greatest among 3 numbers
+7. Swap two numbers
+8. Check whether a number is positive or negative
+9. Find the last digit of a number
+10. Determine whether a number is even without checking whether the remainder is 0
+11. Check whether the first letter of a given string is a vowel
+12. Given temperature:
+        below 10 → "Cold"
+        10–25 → "Pleasant"
+        above 25 → "Hot"
+13. Pass or Fail: A student passes if marks are at least 40.
+14. Given a number, determine whether it is divisible by both 3 and 5.
+15. Grade Calculator:
+        Given Marks:
+                90–100 → A
+                80–89  → B
+                70–79  → C
+                60–69  → D
+                below 60 → F
+16. Login system: allow only when both username and password match
+
+------------------------------------------------------------------------
+17. Leap Year:
+        Divisible by 400 → leap year
+        Divisible by 100 → not leap year
+        Divisible by 4   → leap year
+        Otherwise        → not leap year
+18. Electricity Bill:
+        First 100 units       → ₹5/unit
+        Next 100 units        → ₹7/unit
+        Above 200 units       → ₹10/unit
+19. Ticket Price:
+        Age < 5       → Free
+        Age 5–12      → ₹100
+        Age 13–59     → ₹200
+        Age 60+       → ₹120
+
+        Additionally, if it's a weekend, add ₹50.
+
+-----------------------------------------------------------------------
+20. ATM Withdrawal
+        Withdrawal must be positive
+        Withdrawal must be a multiple of 100
+        Withdrawal cannot exceed balance
+        Minimum balance after withdrawal = ₹500
+
+21. Shopping Discount Engine
+    Below ₹1000      → no discount
+    ₹1000–₹4999      → 5%
+    ₹5000–₹9999      → 10%
+    ₹10000+          → 15%
+
+    Members receive an additional 5% discount.
+
+22. Cab Fare Calculator:
+    First 5 km       → ₹50 flat
+    6–15 km          → ₹12/km additional
+    Above 15 km      → ₹10/km additional
+
+Night ride → additional 20%

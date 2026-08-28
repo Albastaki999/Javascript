@@ -25,11 +25,11 @@ console.log(false || true);
 console.log(true || false);
 console.log(true || true);
 
-console.log(!!true && !!!true);
+// console.log(!!true && !!!true);
 
-console.log(true || false && true && false);
+// console.log(true || false && true && false);
 
-console.log(10 > 2 && !(10 > 20));
+// console.log(10 > 2 && !(10 > 20));
 
 
 
