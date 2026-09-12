@@ -1,13 +1,16 @@
-let a = [1, 2, 3, 4, 5, 6, 7, -1]
-let l = 0
-let r = a.length - 1;
+let arr = [1, 2, 3, 10, 21, 35, 65, 66, 78, 77, 73]
 
-while (l < r) {
-    let temp = a[l]
-    a[l] = a[r]
-    a[r] = temp
-    l++;
-    r--;
+let evenCount = 0;
+let oddCount = 0;
+
+for (let element of arr) {
+    if (element % 2 == 0) {
+        evenCount++;
+    }
+    else {
+        oddCount++;
+    }
 }
 
-console.log(a);
+console.log("Even Count: ", evenCount);
+console.log("Odd Count: ", oddCount);
